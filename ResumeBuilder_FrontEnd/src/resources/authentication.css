@@ -1,0 +1,53 @@
+.auth-parent {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.auth-parent form {
+    position: relative;
+    width: 400px;
+    box-shadow: 0 0 4px gray;
+    padding: 20px;
+    float: right !important;
+    left: 20%;
+    background-color: white;
+}
+/*
+.brand{
+    font-size: 150px !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+}*/
+
+#frm {
+    float: right;
+}
+
+.auth-parent h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bg {
+    background-image: url("../assets/Profiling-amico.png");
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    max-width: 100%;
+    height: auto;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    background-size: contain;
+    background-position: left center;
+}
